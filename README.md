@@ -23,7 +23,7 @@ The Model-View-Controller (MVC) design pattern assigns objects in an application
 
 **The Decorator Design Pattern**
 The Decorator pattern dynamically adds behaviors and responsibilities to an object without modifying its code. It’s an alternative to subclassing where you modify a class’ behavior by wrapping it with another object. Examples: Categories and Delegates
-!MVC Diagram(https://developer.apple.com/library/ios/documentation/general/conceptual/devpedia-cocoacore/Art/model_view_controller.jpg "MVC")
+![alt tag](https://developer.apple.com/library/ios/documentation/general/conceptual/devpedia-cocoacore/Art/model_view_controller.jpg "MVC")
 
 **The Observer Pattern**
 In the Observer pattern, one object notifies other objects of any state changes. The objects involved don’t need to know about one another – thus encouraging a decoupled design. This pattern’s most often used to notify interested objects when a property has changed. Cocoa implements the observer pattern in two ways: Notifications and Key-Value Observing (KVO).
