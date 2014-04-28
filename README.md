@@ -34,7 +34,7 @@ The Model-View-Controller (MVC) design pattern assigns objects in an application
 ![alt tag](https://developer.apple.com/library/ios/documentation/general/conceptual/devpedia-cocoacore/Art/model_view_controller.jpg "MVC")
 
 **The Decorator Design Pattern**
-The Decorator pattern dynamically adds behaviors and responsibilities to an object without modifying its code. It’s an alternative to subclassing where you modify a class’ behavior by wrapping it with another object. Examples: [Categories](https://developer.apple.com/library/ios/documentation/general/conceptual/devpedia-cocoacore/Category.html#//apple_ref/doc/uid/TP40008195-CH5-SW1) and [Delegates](https://developer.apple.com/library/ios/documentation/general/conceptual/devpedia-cocoacore/Delegation.html#//apple_ref/doc/uid/TP40008195-CH14-SW1)
+The Decorator pattern dynamically adds behaviors and responsibilities to an object without modifying its code. It’s an alternative to subclassing where you modify a class’ behavior by wrapping it with another object. **Examples**: [Categories](https://developer.apple.com/library/ios/documentation/general/conceptual/devpedia-cocoacore/Category.html#//apple_ref/doc/uid/TP40008195-CH5-SW1) and [Delegates](https://developer.apple.com/library/ios/documentation/general/conceptual/devpedia-cocoacore/Delegation.html#//apple_ref/doc/uid/TP40008195-CH14-SW1)
 
 **The Observer Pattern**
 In the Observer pattern, one object notifies other objects of any state changes. The objects involved don’t need to know about one another – thus encouraging a decoupled design. This pattern’s most often used to notify interested objects when a property has changed. Cocoa implements the observer pattern in two ways: Notifications and Key-Value Observing (KVO).
@@ -52,8 +52,8 @@ The Singleton design pattern ensures that only one instance exists for a given c
 Resources
 --------
 
-[Apple Developer - MVC] (https://developer.apple.com/library/ios/documentation/general/conceptual/devpedia-cocoacore/MVC.html)
-[Objective-C Object Oriented Programming] (https://mobileappmastery.com/objective-c-object-oriented-programming/)
-[iOS Design Patterns] (http://www.raywenderlich.com/46988/ios-design-patterns)
-[Intro to Object-Oriented Design] (http://www.raywenderlich.com/45940/intro-object-oriented-design-part-1)
+-[Apple Developer - MVC] (https://developer.apple.com/library/ios/documentation/general/conceptual/devpedia-cocoacore/MVC.html)
+-[Objective-C Object Oriented Programming] (https://mobileappmastery.com/objective-c-object-oriented-programming/)
+-[iOS Design Patterns] (http://www.raywenderlich.com/46988/ios-design-patterns)
+-[Intro to Object-Oriented Design] (http://www.raywenderlich.com/45940/intro-object-oriented-design-part-1)
 
