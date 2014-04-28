@@ -52,8 +52,8 @@ The Singleton design pattern ensures that only one instance exists for a given c
 Resources
 --------
 
-*[Apple Developer - MVC] (https://developer.apple.com/library/ios/documentation/general/conceptual/devpedia-cocoacore/MVC.html)
-*[Objective-C Object Oriented Programming] (https://mobileappmastery.com/objective-c-object-oriented-programming/)
-*[iOS Design Patterns] (http://www.raywenderlich.com/46988/ios-design-patterns)
-*[Intro to Object-Oriented Design] (http://www.raywenderlich.com/45940/intro-object-oriented-design-part-1)
+* [Apple Developer - MVC] (https://developer.apple.com/library/ios/documentation/general/conceptual/devpedia-cocoacore/MVC.html)
+* [Objective-C Object Oriented Programming] (https://mobileappmastery.com/objective-c-object-oriented-programming/)
+* [iOS Design Patterns] (http://www.raywenderlich.com/46988/ios-design-patterns)
+* [Intro to Object-Oriented Design] (http://www.raywenderlich.com/45940/intro-object-oriented-design-part-1)
 
