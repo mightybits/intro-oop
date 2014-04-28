@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D501699190ED1A40031FA70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D501698190ED1A40031FA70 /* Foundation.framework */; };
+		5D50169B190ED1A40031FA70 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D50169A190ED1A40031FA70 /* CoreGraphics.framework */; };
+		5D50169D190ED1A40031FA70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D50169C190ED1A40031FA70 /* UIKit.framework */; };
+		5D5016A3190ED1A40031FA70 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D5016A1190ED1A40031FA70 /* InfoPlist.strings */; };
+		5D5016A5190ED1A40031FA70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5016A4190ED1A40031FA70 /* main.m */; };
+		5D5016A9190ED1A40031FA70 /* OPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5016A8190ED1A40031FA70 /* OPAppDelegate.m */; };
+		5D5016AC190ED1A40031FA70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5016AA190ED1A40031FA70 /* Main.storyboard */; };
+		5D5016AF190ED1A40031FA70 /* OPMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5016AE190ED1A40031FA70 /* OPMasterViewController.m */; };
+		5D5016B2190ED1A40031FA70 /* OPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5016B1190ED1A40031FA70 /* OPDetailViewController.m */; };
+		5D5016B4190ED1A40031FA70 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D5016B3190ED1A40031FA70 /* Images.xcassets */; };
+		5D5016BB190ED1A40031FA70 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D5016BA190ED1A40031FA70 /* XCTest.framework */; };
+		5D5016BC190ED1A40031FA70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D501698190ED1A40031FA70 /* Foundation.framework */; };
+		5D5016BD190ED1A40031FA70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D50169C190ED1A40031FA70 /* UIKit.framework */; };
+		5D5016C5190ED1A40031FA70 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D5016C3190ED1A40031FA70 /* InfoPlist.strings */; };
+		5D5016C7190ED1A40031FA70 /* OOPTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5016C6190ED1A40031FA70 /* OOPTutorialTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D5016BE190ED1A40031FA70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D50168D190ED1A30031FA70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D501694190ED1A30031FA70;
+			remoteInfo = OOPTutorial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D501695190ED1A30031FA70 /* OOPTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OOPTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D501698190ED1A40031FA70 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5D50169A190ED1A40031FA70 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5D50169C190ED1A40031FA70 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5D5016A0190ED1A40031FA70 /* OOPTutorial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OOPTutorial-Info.plist"; sourceTree = "<group>"; };
+		5D5016A2190ED1A40031FA70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5D5016A4190ED1A40031FA70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D5016A6190ED1A40031FA70 /* OOPTutorial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OOPTutorial-Prefix.pch"; sourceTree = "<group>"; };
+		5D5016A7190ED1A40031FA70 /* OPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OPAppDelegate.h; sourceTree = "<group>"; };
+		5D5016A8190ED1A40031FA70 /* OPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OPAppDelegate.m; sourceTree = "<group>"; };
+		5D5016AB190ED1A40031FA70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D5016AD190ED1A40031FA70 /* OPMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OPMasterViewController.h; sourceTree = "<group>"; };
+		5D5016AE190ED1A40031FA70 /* OPMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OPMasterViewController.m; sourceTree = "<group>"; };
+		5D5016B0190ED1A40031FA70 /* OPDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OPDetailViewController.h; sourceTree = "<group>"; };
+		5D5016B1190ED1A40031FA70 /* OPDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OPDetailViewController.m; sourceTree = "<group>"; };
+		5D5016B3190ED1A40031FA70 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5D5016B9190ED1A40031FA70 /* OOPTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OOPTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D5016BA190ED1A40031FA70 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5D5016C2190ED1A40031FA70 /* OOPTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OOPTutorialTests-Info.plist"; sourceTree = "<group>"; };
+		5D5016C4190ED1A40031FA70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5D5016C6190ED1A40031FA70 /* OOPTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OOPTutorialTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D501692190ED1A30031FA70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D50169B190ED1A40031FA70 /* CoreGraphics.framework in Frameworks */,
+				5D50169D190ED1A40031FA70 /* UIKit.framework in Frameworks */,
+				5D501699190ED1A40031FA70 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5016B6190ED1A40031FA70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5016BB190ED1A40031FA70 /* XCTest.framework in Frameworks */,
+				5D5016BD190ED1A40031FA70 /* UIKit.framework in Frameworks */,
+				5D5016BC190ED1A40031FA70 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D50168C190ED1A30031FA70 = {
+			isa = PBXGroup;
+			children = (
+				5D50169E190ED1A40031FA70 /* OOPTutorial */,
+				5D5016C0190ED1A40031FA70 /* OOPTutorialTests */,
+				5D501697190ED1A30031FA70 /* Frameworks */,
+				5D501696190ED1A30031FA70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D501696190ED1A30031FA70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D501695190ED1A30031FA70 /* OOPTutorial.app */,
+				5D5016B9190ED1A40031FA70 /* OOPTutorialTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D501697190ED1A30031FA70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D501698190ED1A40031FA70 /* Foundation.framework */,
+				5D50169A190ED1A40031FA70 /* CoreGraphics.framework */,
+				5D50169C190ED1A40031FA70 /* UIKit.framework */,
+				5D5016BA190ED1A40031FA70 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D50169E190ED1A40031FA70 /* OOPTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				5D5016A7190ED1A40031FA70 /* OPAppDelegate.h */,
+				5D5016A8190ED1A40031FA70 /* OPAppDelegate.m */,
+				5D5016AA190ED1A40031FA70 /* Main.storyboard */,
+				5D5016AD190ED1A40031FA70 /* OPMasterViewController.h */,
+				5D5016AE190ED1A40031FA70 /* OPMasterViewController.m */,
+				5D5016B0190ED1A40031FA70 /* OPDetailViewController.h */,
+				5D5016B1190ED1A40031FA70 /* OPDetailViewController.m */,
+				5D5016B3190ED1A40031FA70 /* Images.xcassets */,
+				5D50169F190ED1A40031FA70 /* Supporting Files */,
+			);
+			path = OOPTutorial;
+			sourceTree = "<group>";
+		};
+		5D50169F190ED1A40031FA70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D5016A0190ED1A40031FA70 /* OOPTutorial-Info.plist */,
+				5D5016A1190ED1A40031FA70 /* InfoPlist.strings */,
+				5D5016A4190ED1A40031FA70 /* main.m */,
+				5D5016A6190ED1A40031FA70 /* OOPTutorial-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D5016C0190ED1A40031FA70 /* OOPTutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D5016C6190ED1A40031FA70 /* OOPTutorialTests.m */,
+				5D5016C1190ED1A40031FA70 /* Supporting Files */,
+			);
+			path = OOPTutorialTests;
+			sourceTree = "<group>";
+		};
+		5D5016C1190ED1A40031FA70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D5016C2190ED1A40031FA70 /* OOPTutorialTests-Info.plist */,
+				5D5016C3190ED1A40031FA70 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D501694190ED1A30031FA70 /* OOPTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D5016CA190ED1A40031FA70 /* Build configuration list for PBXNativeTarget "OOPTutorial" */;
+			buildPhases = (
+				5D501691190ED1A30031FA70 /* Sources */,
+				5D501692190ED1A30031FA70 /* Frameworks */,
+				5D501693190ED1A30031FA70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OOPTutorial;
+			productName = OOPTutorial;
+			productReference = 5D501695190ED1A30031FA70 /* OOPTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D5016B8190ED1A40031FA70 /* OOPTutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D5016CD190ED1A40031FA70 /* Build configuration list for PBXNativeTarget "OOPTutorialTests" */;
+			buildPhases = (
+				5D5016B5190ED1A40031FA70 /* Sources */,
+				5D5016B6190ED1A40031FA70 /* Frameworks */,
+				5D5016B7190ED1A40031FA70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D5016BF190ED1A40031FA70 /* PBXTargetDependency */,
+			);
+			name = OOPTutorialTests;
+			productName = OOPTutorialTests;
+			productReference = 5D5016B9190ED1A40031FA70 /* OOPTutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D50168D190ED1A30031FA70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Tate Jennings";
+				TargetAttributes = {
+					5D5016B8190ED1A40031FA70 = {
+						TestTargetID = 5D501694190ED1A30031FA70;
+					};
+				};
+			};
+			buildConfigurationList = 5D501690190ED1A30031FA70 /* Build configuration list for PBXProject "OOPTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D50168C190ED1A30031FA70;
+			productRefGroup = 5D501696190ED1A30031FA70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D501694190ED1A30031FA70 /* OOPTutorial */,
+				5D5016B8190ED1A40031FA70 /* OOPTutorialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D501693190ED1A30031FA70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5016B4190ED1A40031FA70 /* Images.xcassets in Resources */,
+				5D5016A3190ED1A40031FA70 /* InfoPlist.strings in Resources */,
+				5D5016AC190ED1A40031FA70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5016B7190ED1A40031FA70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5016C5190ED1A40031FA70 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D501691190ED1A30031FA70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5016B2190ED1A40031FA70 /* OPDetailViewController.m in Sources */,
+				5D5016A5190ED1A40031FA70 /* main.m in Sources */,
+				5D5016A9190ED1A40031FA70 /* OPAppDelegate.m in Sources */,
+				5D5016AF190ED1A40031FA70 /* OPMasterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5016B5190ED1A40031FA70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5016C7190ED1A40031FA70 /* OOPTutorialTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D5016BF190ED1A40031FA70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D501694190ED1A30031FA70 /* OOPTutorial */;
+			targetProxy = 5D5016BE190ED1A40031FA70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D5016A1190ED1A40031FA70 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D5016A2190ED1A40031FA70 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5D5016AA190ED1A40031FA70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D5016AB190ED1A40031FA70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D5016C3190ED1A40031FA70 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D5016C4190ED1A40031FA70 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D5016C8190ED1A40031FA70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5D5016C9190ED1A40031FA70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D5016CB190ED1A40031FA70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OOPTutorial/OOPTutorial-Prefix.pch";
+				INFOPLIST_FILE = "OOPTutorial/OOPTutorial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5D5016CC190ED1A40031FA70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OOPTutorial/OOPTutorial-Prefix.pch";
+				INFOPLIST_FILE = "OOPTutorial/OOPTutorial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5D5016CE190ED1A40031FA70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OOPTutorial.app/OOPTutorial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OOPTutorial/OOPTutorial-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OOPTutorialTests/OOPTutorialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5D5016CF190ED1A40031FA70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OOPTutorial.app/OOPTutorial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OOPTutorial/OOPTutorial-Prefix.pch";
+				INFOPLIST_FILE = "OOPTutorialTests/OOPTutorialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D501690190ED1A30031FA70 /* Build configuration list for PBXProject "OOPTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5016C8190ED1A40031FA70 /* Debug */,
+				5D5016C9190ED1A40031FA70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D5016CA190ED1A40031FA70 /* Build configuration list for PBXNativeTarget "OOPTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5016CB190ED1A40031FA70 /* Debug */,
+				5D5016CC190ED1A40031FA70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5D5016CD190ED1A40031FA70 /* Build configuration list for PBXNativeTarget "OOPTutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5016CE190ED1A40031FA70 /* Debug */,
+				5D5016CF190ED1A40031FA70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D50168D190ED1A30031FA70 /* Project object */;
+}
