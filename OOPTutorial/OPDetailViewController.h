@@ -7,10 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Animal.h"
 
 @interface OPDetailViewController : UIViewController
 
-@property (strong, nonatomic) id detailItem;
+@property (strong, nonatomic) Animal* detailAnimal;
 
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *animalImage;
+@property (weak, nonatomic) IBOutlet UITextView *animalDescription;
+@property (weak, nonatomic) IBOutlet UILabel *animalTitle;
+
 @end

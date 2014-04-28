@@ -17,22 +17,19 @@
 		5D5016AF190ED1A40031FA70 /* OPMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5016AE190ED1A40031FA70 /* OPMasterViewController.m */; };
 		5D5016B2190ED1A40031FA70 /* OPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5016B1190ED1A40031FA70 /* OPDetailViewController.m */; };
 		5D5016B4190ED1A40031FA70 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D5016B3190ED1A40031FA70 /* Images.xcassets */; };
-		5D5016BB190ED1A40031FA70 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D5016BA190ED1A40031FA70 /* XCTest.framework */; };
-		5D5016BC190ED1A40031FA70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D501698190ED1A40031FA70 /* Foundation.framework */; };
-		5D5016BD190ED1A40031FA70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D50169C190ED1A40031FA70 /* UIKit.framework */; };
-		5D5016C5190ED1A40031FA70 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D5016C3190ED1A40031FA70 /* InfoPlist.strings */; };
-		5D5016C7190ED1A40031FA70 /* OOPTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5016C6190ED1A40031FA70 /* OOPTutorialTests.m */; };
+		5D5016D5190ED2620031FA70 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5016D4190ED2620031FA70 /* Animal.m */; };
+		5D5016D8190ED4830031FA70 /* AnimalList.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5016D7190ED4830031FA70 /* AnimalList.m */; };
+		5D5016DB190ED9370031FA70 /* Human.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5016DA190ED9370031FA70 /* Human.m */; };
+		5D5016DE190EF3FD0031FA70 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5016DD190EF3FD0031FA70 /* Dog.m */; };
+		5D5016E3190EF5C80031FA70 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5016E2190EF5C80031FA70 /* Cat.m */; };
+		5D5016E6190EF6EF0031FA70 /* Shark.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5016E5190EF6EF0031FA70 /* Shark.m */; };
+		5D5016EC190EFAA30031FA70 /* images_bruce.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D5016E7190EFAA30031FA70 /* images_bruce.png */; };
+		5D5016ED190EFAA30031FA70 /* images_clancy.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D5016E8190EFAA30031FA70 /* images_clancy.png */; };
+		5D5016EE190EFAA30031FA70 /* images_frank.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D5016E9190EFAA30031FA70 /* images_frank.png */; };
+		5D5016EF190EFAA30031FA70 /* images_piper.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D5016EA190EFAA30031FA70 /* images_piper.png */; };
+		5D5016F0190EFAA30031FA70 /* images_sophie.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D5016EB190EFAA30031FA70 /* images_sophie.png */; };
+		5D5016F2190EFC1E0031FA70 /* images_noimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D5016F1190EFC1E0031FA70 /* images_noimage.png */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		5D5016BE190ED1A40031FA70 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5D50168D190ED1A30031FA70 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5D501694190ED1A30031FA70;
-			remoteInfo = OOPTutorial;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5D501695190ED1A30031FA70 /* OOPTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OOPTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,11 +48,25 @@
 		5D5016B0190ED1A40031FA70 /* OPDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OPDetailViewController.h; sourceTree = "<group>"; };
 		5D5016B1190ED1A40031FA70 /* OPDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OPDetailViewController.m; sourceTree = "<group>"; };
 		5D5016B3190ED1A40031FA70 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5D5016B9190ED1A40031FA70 /* OOPTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OOPTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D5016BA190ED1A40031FA70 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		5D5016C2190ED1A40031FA70 /* OOPTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OOPTutorialTests-Info.plist"; sourceTree = "<group>"; };
-		5D5016C4190ED1A40031FA70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5D5016C6190ED1A40031FA70 /* OOPTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OOPTutorialTests.m; sourceTree = "<group>"; };
+		5D5016D3190ED2620031FA70 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		5D5016D4190ED2620031FA70 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		5D5016D6190ED4830031FA70 /* AnimalList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalList.h; sourceTree = "<group>"; };
+		5D5016D7190ED4830031FA70 /* AnimalList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalList.m; sourceTree = "<group>"; };
+		5D5016D9190ED9370031FA70 /* Human.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Human.h; sourceTree = "<group>"; };
+		5D5016DA190ED9370031FA70 /* Human.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Human.m; sourceTree = "<group>"; };
+		5D5016DC190EF3FD0031FA70 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		5D5016DD190EF3FD0031FA70 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		5D5016E1190EF5C80031FA70 /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		5D5016E2190EF5C80031FA70 /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		5D5016E4190EF6EF0031FA70 /* Shark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shark.h; sourceTree = "<group>"; };
+		5D5016E5190EF6EF0031FA70 /* Shark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shark.m; sourceTree = "<group>"; };
+		5D5016E7190EFAA30031FA70 /* images_bruce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images_bruce.png; sourceTree = "<group>"; };
+		5D5016E8190EFAA30031FA70 /* images_clancy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images_clancy.png; sourceTree = "<group>"; };
+		5D5016E9190EFAA30031FA70 /* images_frank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images_frank.png; sourceTree = "<group>"; };
+		5D5016EA190EFAA30031FA70 /* images_piper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images_piper.png; sourceTree = "<group>"; };
+		5D5016EB190EFAA30031FA70 /* images_sophie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images_sophie.png; sourceTree = "<group>"; };
+		5D5016F1190EFC1E0031FA70 /* images_noimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images_noimage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,16 +80,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D5016B6190ED1A40031FA70 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5D5016BB190ED1A40031FA70 /* XCTest.framework in Frameworks */,
-				5D5016BD190ED1A40031FA70 /* UIKit.framework in Frameworks */,
-				5D5016BC190ED1A40031FA70 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -86,7 +87,6 @@
 			isa = PBXGroup;
 			children = (
 				5D50169E190ED1A40031FA70 /* OOPTutorial */,
-				5D5016C0190ED1A40031FA70 /* OOPTutorialTests */,
 				5D501697190ED1A30031FA70 /* Frameworks */,
 				5D501696190ED1A30031FA70 /* Products */,
 			);
@@ -96,7 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				5D501695190ED1A30031FA70 /* OOPTutorial.app */,
-				5D5016B9190ED1A40031FA70 /* OOPTutorialTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,15 +114,11 @@
 		5D50169E190ED1A40031FA70 /* OOPTutorial */ = {
 			isa = PBXGroup;
 			children = (
-				5D5016A7190ED1A40031FA70 /* OPAppDelegate.h */,
-				5D5016A8190ED1A40031FA70 /* OPAppDelegate.m */,
-				5D5016AA190ED1A40031FA70 /* Main.storyboard */,
-				5D5016AD190ED1A40031FA70 /* OPMasterViewController.h */,
-				5D5016AE190ED1A40031FA70 /* OPMasterViewController.m */,
-				5D5016B0190ED1A40031FA70 /* OPDetailViewController.h */,
-				5D5016B1190ED1A40031FA70 /* OPDetailViewController.m */,
-				5D5016B3190ED1A40031FA70 /* Images.xcassets */,
-				5D50169F190ED1A40031FA70 /* Supporting Files */,
+				5D5016E0190EF51F0031FA70 /* Application */,
+				5D5016DF190EF5060031FA70 /* Resources */,
+				5D5016D2190ED23A0031FA70 /* Views */,
+				5D5016D1190ED21C0031FA70 /* Controllers */,
+				5D5016D0190ED2100031FA70 /* Models */,
 			);
 			path = OOPTutorial;
 			sourceTree = "<group>";
@@ -139,22 +134,66 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5D5016C0190ED1A40031FA70 /* OOPTutorialTests */ = {
+		5D5016D0190ED2100031FA70 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				5D5016C6190ED1A40031FA70 /* OOPTutorialTests.m */,
-				5D5016C1190ED1A40031FA70 /* Supporting Files */,
+				5D5016D6190ED4830031FA70 /* AnimalList.h */,
+				5D5016D7190ED4830031FA70 /* AnimalList.m */,
+				5D5016D3190ED2620031FA70 /* Animal.h */,
+				5D5016D4190ED2620031FA70 /* Animal.m */,
+				5D5016D9190ED9370031FA70 /* Human.h */,
+				5D5016DA190ED9370031FA70 /* Human.m */,
+				5D5016DC190EF3FD0031FA70 /* Dog.h */,
+				5D5016DD190EF3FD0031FA70 /* Dog.m */,
+				5D5016E1190EF5C80031FA70 /* Cat.h */,
+				5D5016E2190EF5C80031FA70 /* Cat.m */,
+				5D5016E4190EF6EF0031FA70 /* Shark.h */,
+				5D5016E5190EF6EF0031FA70 /* Shark.m */,
 			);
-			path = OOPTutorialTests;
+			name = Models;
 			sourceTree = "<group>";
 		};
-		5D5016C1190ED1A40031FA70 /* Supporting Files */ = {
+		5D5016D1190ED21C0031FA70 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				5D5016C2190ED1A40031FA70 /* OOPTutorialTests-Info.plist */,
-				5D5016C3190ED1A40031FA70 /* InfoPlist.strings */,
+				5D5016AD190ED1A40031FA70 /* OPMasterViewController.h */,
+				5D5016AE190ED1A40031FA70 /* OPMasterViewController.m */,
+				5D5016B0190ED1A40031FA70 /* OPDetailViewController.h */,
+				5D5016B1190ED1A40031FA70 /* OPDetailViewController.m */,
 			);
-			name = "Supporting Files";
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		5D5016D2190ED23A0031FA70 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5D5016AA190ED1A40031FA70 /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		5D5016DF190EF5060031FA70 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5D5016F1190EFC1E0031FA70 /* images_noimage.png */,
+				5D5016E7190EFAA30031FA70 /* images_bruce.png */,
+				5D5016E8190EFAA30031FA70 /* images_clancy.png */,
+				5D5016E9190EFAA30031FA70 /* images_frank.png */,
+				5D5016EA190EFAA30031FA70 /* images_piper.png */,
+				5D5016EB190EFAA30031FA70 /* images_sophie.png */,
+				5D5016B3190ED1A40031FA70 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5D5016E0190EF51F0031FA70 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				5D50169F190ED1A40031FA70 /* Supporting Files */,
+				5D5016A7190ED1A40031FA70 /* OPAppDelegate.h */,
+				5D5016A8190ED1A40031FA70 /* OPAppDelegate.m */,
+			);
+			name = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,24 +216,6 @@
 			productReference = 5D501695190ED1A30031FA70 /* OOPTutorial.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5D5016B8190ED1A40031FA70 /* OOPTutorialTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5D5016CD190ED1A40031FA70 /* Build configuration list for PBXNativeTarget "OOPTutorialTests" */;
-			buildPhases = (
-				5D5016B5190ED1A40031FA70 /* Sources */,
-				5D5016B6190ED1A40031FA70 /* Frameworks */,
-				5D5016B7190ED1A40031FA70 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5D5016BF190ED1A40031FA70 /* PBXTargetDependency */,
-			);
-			name = OOPTutorialTests;
-			productName = OOPTutorialTests;
-			productReference = 5D5016B9190ED1A40031FA70 /* OOPTutorialTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,11 +225,6 @@
 				CLASSPREFIX = OP;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Tate Jennings";
-				TargetAttributes = {
-					5D5016B8190ED1A40031FA70 = {
-						TestTargetID = 5D501694190ED1A30031FA70;
-					};
-				};
 			};
 			buildConfigurationList = 5D501690190ED1A30031FA70 /* Build configuration list for PBXProject "OOPTutorial" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -224,7 +240,6 @@
 			projectRoot = "";
 			targets = (
 				5D501694190ED1A30031FA70 /* OOPTutorial */,
-				5D5016B8190ED1A40031FA70 /* OOPTutorialTests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,16 +250,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D5016B4190ED1A40031FA70 /* Images.xcassets in Resources */,
+				5D5016F0190EFAA30031FA70 /* images_sophie.png in Resources */,
+				5D5016EF190EFAA30031FA70 /* images_piper.png in Resources */,
+				5D5016EC190EFAA30031FA70 /* images_bruce.png in Resources */,
+				5D5016EE190EFAA30031FA70 /* images_frank.png in Resources */,
 				5D5016A3190ED1A40031FA70 /* InfoPlist.strings in Resources */,
 				5D5016AC190ED1A40031FA70 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5D5016B7190ED1A40031FA70 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5D5016C5190ED1A40031FA70 /* InfoPlist.strings in Resources */,
+				5D5016F2190EFC1E0031FA70 /* images_noimage.png in Resources */,
+				5D5016ED190EFAA30031FA70 /* images_clancy.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,30 +268,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D5016DB190ED9370031FA70 /* Human.m in Sources */,
 				5D5016B2190ED1A40031FA70 /* OPDetailViewController.m in Sources */,
+				5D5016DE190EF3FD0031FA70 /* Dog.m in Sources */,
+				5D5016E3190EF5C80031FA70 /* Cat.m in Sources */,
+				5D5016D8190ED4830031FA70 /* AnimalList.m in Sources */,
 				5D5016A5190ED1A40031FA70 /* main.m in Sources */,
+				5D5016D5190ED2620031FA70 /* Animal.m in Sources */,
+				5D5016E6190EF6EF0031FA70 /* Shark.m in Sources */,
 				5D5016A9190ED1A40031FA70 /* OPAppDelegate.m in Sources */,
 				5D5016AF190ED1A40031FA70 /* OPMasterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D5016B5190ED1A40031FA70 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5D5016C7190ED1A40031FA70 /* OOPTutorialTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5D5016BF190ED1A40031FA70 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5D501694190ED1A30031FA70 /* OOPTutorial */;
-			targetProxy = 5D5016BE190ED1A40031FA70 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5D5016A1190ED1A40031FA70 /* InfoPlist.strings */ = {
@@ -295,14 +298,6 @@
 				5D5016AB190ED1A40031FA70 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5D5016C3190ED1A40031FA70 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5D5016C4190ED1A40031FA70 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -404,46 +399,6 @@
 			};
 			name = Release;
 		};
-		5D5016CE190ED1A40031FA70 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OOPTutorial.app/OOPTutorial";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OOPTutorial/OOPTutorial-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "OOPTutorialTests/OOPTutorialTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		5D5016CF190ED1A40031FA70 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OOPTutorial.app/OOPTutorial";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OOPTutorial/OOPTutorial-Prefix.pch";
-				INFOPLIST_FILE = "OOPTutorialTests/OOPTutorialTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -461,14 +416,6 @@
 			buildConfigurations = (
 				5D5016CB190ED1A40031FA70 /* Debug */,
 				5D5016CC190ED1A40031FA70 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		5D5016CD190ED1A40031FA70 /* Build configuration list for PBXNativeTarget "OOPTutorialTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5D5016CE190ED1A40031FA70 /* Debug */,
-				5D5016CF190ED1A40031FA70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
